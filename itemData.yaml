@@ -1,0 +1,193 @@
+{"Categories":[ 
+	{"Category": "Luxury Goods",
+	"Items":[
+		{"Name": "Feather Talisman",
+		"CodeName": "TREASURE_TRIBAL_RARITY1",
+		"Toggle": true,
+		"Weight": [2.5]},
+
+		{"Name": "Dreamcatcher", 
+		"CodeName": "TREASURE_TRIBAL_RARITY2", 
+		"Toggle": true, 
+		"Weight": [5.0]},
+
+		{"Name": "Holy Fetish",
+		"CodeName": "TREASURE_TRIBAL_RARITY3",
+		"Toggle": true,
+		"Weight": [6.3]},
+
+		{"Name": "Silver Cup",
+		"CodeName": "TREASURE_SILVERWARE_RARITY1",
+		"Toggle": true,
+		"Weight": [2.5]},
+
+		{"Name": "Silver Mirror", 
+		"CodeName": "TREASURE_SILVERWARE_RARITY2", 
+		"Toggle": true, 
+		"Weight": [5.0]},
+
+		{"Name": "Silver Candelabrum",
+		"CodeName": "TREASURE_SILVERWARE_RARITY3",
+		"Toggle": true,
+		"Weight": [6.3]},
+        
+		{"Name": "Simple Stone Toy",
+		"CodeName": "TREASURE_DECORATIVE_RARITY1",
+		"Toggle": true,
+		"Weight": [2.5]},
+
+		{"Name": "Stone Mask", 
+		"CodeName": "TREASURE_DECORATIVE_RARITY2", 
+		"Toggle": true, 
+		"Weight": [5.0]},
+
+		{"Name": "Stone Idol",
+		"CodeName": "TREASURE_DECORATIVE_RARITY3",
+		"Toggle": true,
+		"Weight": [6.3]},
+        
+		{"Name": "Ornamental Scepter",
+		"CodeName": "TREASURE_CEREMONIAL_RARITY1",
+		"Toggle": true,
+		"Weight": [2.5]},
+
+		{"Name": "Globus Cruciger", 
+		"CodeName": "TREASURE_CEREMONIAL_RARITY2", 
+		"Toggle": true, 
+		"Weight": [5.0]},
+
+		{"Name": "Golden Crown",
+		"CodeName": "TREASURE_CEREMONIAL_RARITY3",
+		"Toggle": true,
+		"Weight": [6.3]},
+        
+		{"Name": "Corrupted Scroll",
+		"CodeName": "TREASURE_KNOWLEDGE_RARITY1",
+		"Toggle": true,
+		"Weight": [2.5]},
+
+		{"Name": "Thin Booklet", 
+		"CodeName": "TREASURE_KNOWLEDGE_RARITY2", 
+		"Toggle": true, 
+		"Weight": [5.0]},
+
+		{"Name": "Ancient Tome",
+		"CodeName": "TREASURE_KNOWLEDGE_RARITY3",
+		"Toggle": true,
+		"Weight": [6.3]},
+        
+		{"Name": "Ritual Candles",
+		"CodeName": "TREASURE_RITUAL_RARITY1",
+		"Toggle": false,
+		"Weight": [2.5]},
+
+		{"Name": "Blood Chalice", 
+		"CodeName": "TREASURE_RITUAL_RARITY2", 
+		"Toggle": false, 
+		"Weight": [5.0]},
+
+		{"Name": "Sacrificial Dagger",
+		"CodeName": "TREASURE_RITUAL_RARITY3",
+		"Toggle": false,
+		"Weight": [6.3]},
+	]},
+    
+    {"Category": "Raw Resources",
+	"Items":[
+		{"Name": "Hide",
+		"CodeName": "HIDE",
+		"Toggle": true,
+		"Weight": [0.2, 0.2, 0.3, 0.5, 0.8, 1.1, 1.7, 2.6]},
+
+		{"Name": "Log", 
+		"CodeName": "WOOD", 
+		"Toggle": true, 
+		"Weight": [0.2, 0.2, 0.3, 0.5, 0.8, 1.1, 1.7, 2.6]},
+
+		{"Name": "Stone",
+		"CodeName": "ROCK",
+		"Toggle": false,
+		"Weight": [0.2,0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Ore",
+		"CodeName": "ORE",
+		"Toggle": true,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Fiber",
+		"CodeName": "FIBER",
+		"Toggle": true,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]}
+	]},
+
+	{"Category": "Refined Resources",
+	"Items":[
+		{"Name": "Leather",
+		"CodeName": "LEATHER",
+		"Toggle": false,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Planks",
+		"CodeName": "PLANKS",
+		"Toggle": false,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Stone Block",
+		"CodeName": "STONEBLOCK",
+		"Toggle": false,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Metal Bar",
+		"CodeName": "METALBAR",
+		"Toggle": false,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]},
+
+		{"Name": "Cloth",
+		"CodeName": "CLOTH",
+		"Toggle": false,
+		"Weight": [0.2,0.3,0.5,0.8,1.1,1.7,2.6]}
+	]},
+    
+    {"Category": "Crop Seeds",
+	"Items":[
+		{"Name": "Carrot Seeds",
+		"CodeName": "T1_FARM_CARROT_SEED",
+		"Toggle": false,
+		"Weight": [0.1]},
+
+		{"Name": "Beam Seeds", 
+		"CodeName": "T2_FARM_BEAN_SEED", 
+		"Toggle": false, 
+		"Weight": [0.2]},
+
+		{"Name": "Wheat Seeds",
+		"CodeName": "T3_FARM_WHEAT_SEED",
+		"Toggle": false,
+		"Weight": [0.2]},
+
+		{"Name": "Turnip Seeds",
+		"CodeName": "T4_FARM_TURNIP_SEED",
+		"Toggle": false,
+		"Weight": [0.3]},
+
+		{"Name": "Cabbage Seeds",
+		"CodeName": "T5_FARM_CABBAGE_SEED",
+		"Toggle": false,
+		"Weight": [0.5]},
+        
+		{"Name": "Potato Seeds",
+		"CodeName": "T6_FARM_POTATO_SEED",
+		"Toggle": false,
+		"Weight": [0.8]},
+        
+		{"Name": "Corn Seeds",
+		"CodeName": "T7_FARM_CORN_SEED",
+		"Toggle": false,
+		"Weight": [1.1]},
+        
+		{"Name": "Pumpkin Seeds",
+		"CodeName": "T8_FARM_PUMPKIN_SEED",
+		"Toggle": false,
+		"Weight": [1.7]}
+	]},
+]}

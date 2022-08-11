@@ -23,7 +23,7 @@ func (op operationAuctionGetItemAverageStats) Process(state *albionState) {
 		quality:   op.Quality,
 	}
 	state.marketHistoryIDLookup[index] = mhInfo
-	log.Debugf("Market History - Caching %d at %d.", mhInfo.albionId, index)
+	log.Infof("Market History - Caching %d at %d.", mhInfo.albionId, index)
 }
 
 type operationAuctionGetItemAverageStatsResponse struct {
@@ -36,7 +36,7 @@ type operationAuctionGetItemAverageStatsResponse struct {
 func (op operationAuctionGetItemAverageStatsResponse) Process(state *albionState) {
 	var index = op.MessageID % CacheSize
 	var mhInfo = state.marketHistoryIDLookup[index]
-	log.Debugf("Market History - Loaded itemID %d from cache at index %d", mhInfo.albionId, index)
+	log.Infof("Market History - Loaded itemID %d from cache at index %d", mhInfo.albionId, index)
 	log.Debug("Got response to GetItemAverageStats operation for the itemID[", mhInfo.albionId, "] of quality: ", mhInfo.quality, " and on the timescale: ", mhInfo.timescale)
 
 	if !state.IsValidLocation() {

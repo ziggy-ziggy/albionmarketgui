@@ -5,8 +5,11 @@ This project needs a lot of improvements, and while it was fun to learn Go, I ne
 ![Imgur Image](https://i.imgur.com/x3piAcK.png)
 Some notable features:
 Display useful market data, such as profit margins or profit in a single trip between the market with the lowest and highest cost for that item. Those costs are highlighted.
-Select which items to display by their categories, which can be configured in the itemsData.yaml file by changing the item's Toggle value
-Old market data is greyed out (In the screenshot I haven't visited Martlock for 48+ hours)
+
+Select which items to display by their categories, which can be configured in the itemsData.yaml file by changing the item's Toggle value.
+
+Old market data is greyed out (In the screenshot I haven't visited Martlock for 48+ hours).
+
 Option to ignore Caerleon so you can purely trade in safe zones.
 
 ---
